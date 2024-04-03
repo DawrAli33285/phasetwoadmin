@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.chat-grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.sender, .user{
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+   
+}
+.sender{
+    background-color: #00a7ac;
+    color: white;
+}
+
+.user{
+    background-color: #d9d9d9;
+    color: black;
+    align-items: end;
+}
